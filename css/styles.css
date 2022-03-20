@@ -1,0 +1,41 @@
+p {
+    display: inline;
+    padding-left: 10px;
+}
+.button-color{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px;
+
+}
+.title{
+    background-color: #92c57c;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.submit{
+    border: 2px solid #92c57c;
+    color: #92c57c;
+    padding: 5px;
+    background-color: #fff;
+}
+.text-input{
+    border: 2px solid #92c57c;
+    padding: 5px;
+}
+.li-color{
+    color: #ffa12c;
+    font-weight: 600;
+    font-size: 20px;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+.ul{
+    list-style-type: none;
+}
