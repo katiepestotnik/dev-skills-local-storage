@@ -55,6 +55,11 @@ const loadData = ()=>{
             $li.addClass("li-color")
             const buttonLi = $li.html(`<button class="button-color">X</button> ${item}`)
             $ul.append(buttonLi)
+            buttonLi.on("click", (e) => {
+                buttonLi.remove()
+                console.log(arr)
+            })
+        
         })
     }
 }
