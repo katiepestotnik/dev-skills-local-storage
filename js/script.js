@@ -65,3 +65,9 @@ const loadData = ()=>{
 }
 loadData()
 $submit.on("click", handleSubmit)
+
+
+//example of how to use splice to remove 1 item from local storage and resetting data
+//have to figure a way to determine index of clicked item.
+// questions.splice(index, 1);
+// localStorage.setItem('questions',JSON.stringify(questions));
